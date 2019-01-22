@@ -1,0 +1,70 @@
+Narsjo	1
+Hypso_area	1
+a00	737		#Hypsografic curve  minimum value 		#GIS
+a01	780		#Hypsografic curve  elev first areal 10%		#GIS 
+a02	820		#Hypsografic curve  elev second areal 10%	#GIS
+a03	887		#Hypsografic curve  elev 3 areal 10%		#GIS
+a04	907		#Hypsografic curve  elev 4 areal 10%		#GIS
+a05	935		#Hypsografic curve  elev 5 areal 10%		#GIS
+a06	972		#Hypsografic curve  elev 6 areal 10%		#GIS
+a07	998		#Hypsografic curve  elev 7 areal 10%		#GIS
+a08	1051		#Hypsografic curve  elev 8 areal 10%		#GIS
+a09	1120		#Hypsografic curve  elev 9 areal 10%		#GIS
+a10	1595		#Hypsografic curve  maximum value		#GIS
+pro	0.028953	#Liquid water in snow (% os Snow water equivalent, SWE) 	#Calibrated
+xcor	320095		#UTM33 coordinates easting
+ycor	6913629	        #UTM33 coordinates northing
+Aprim	0.86             # Initial Albedo 0.86 (Walter, JoH, 2005)
+taux	0		 # Age of snow  0.0 (UEB)
+hst1	940		 #mean elevation of catchment
+u	0.502		 #mean wind speed [m/s]
+hfelt	940		 #mean elevation of catchment
+tgrad	0		 # Not in use We use met grid, or no gradients
+pgrad	0                # Not in use We use met grid, or no gradients
+pkorr	1.0		 #Liquid precpititan correction 				#Calibrated
+skorr	1.0		 #Solid precpititan correction				#Calibrated
+TX	-1.12	         #Threshold temp for snow/rain calibrated, can be fixed to 0.5 otherwise calibrated
+TS	1.234            #Not in use
+CX	0.2729	         #Not in use
+CFR	0.02		 #Factor for refreezing					#Calibrated
+CGLAC	0.901		 #Degree day factor for glacial melt			#Calibrated
+a0	22.941 		#Par for spatial dist of SWE, shape parameter	#Estimated from observed precipitation
+d	240.9 		#Par for spatial dist of SWE, decorrelation length	#Estimated from observed precipitation
+Timeresinsec	10800	#Temporal resolution in seconds
+MAD	2.48		#Mean annual discharge					#Measured
+area	118936250 	#Area i m2						#GIS
+maxLbog	1476		#Max distance (from distance distribution, DD) for bogs	#GIS
+midLbog	197.46		#Mean distance (from distance distribution, DD)for bogs	#GIS
+bogfrac	0.12		#Areal fraction of bogs					#GIS
+zsoil	0.03		#Zero arealfraction of DD for soils (what area with distance zero to river)	#GIS
+zbog	0.15		#Zero arealfraction of DD for bogs (what area with distance zero to river) 	#GIS
+NoL	5		#Number of storage layers				#Fixed
+cea	0.116542	#Not in use. EB modelling of ET Degree day  factor for evpotranspiration		#Calibrated
+R	0.3		#Field capacity (fracion av D)				#Fixed ?
+Gshape	1.249		#Shape par gamma distribution for lower case lambda	#Recession analysis
+Gscale	0.075		#Scale par gamma distribution for lower case lambda	#Recession analysis
+GshInt	1.645		#Shape par gamma distribution for capital lambda		#Recession analysis
+GscInt	0.036		#Scale par gamma distribution for capital lambda		#Recession analysis
+cvHBV	0.4860306	#Not in use. EB modelling ofsnowmelt
+Dummy	-1000	        #Not in use.
+rv	0.431		#Celerity for river flow [m/s]				#Fixed (to 1.0?) or calibrated 
+midFl	9993.59		#Mean distance (from distance distribution, DD)for river network	#GIS
+stdFL	6880.9		#Standard deviation of distance (from distance distribution, DD)for river network	#GIS
+maxFL	22475		#Max distance (from distance distribution, DD) for river network	#GIS
+maxDl	1600		#Max distance (from distance distribution, DD) for soils		#GIS
+Critflux	2	#Critical volume [m3/timestep]  to create a channel
+midDL	377.8		#Mean distance (from distance distribution, DD) for soils	#GIS
+glacfrac 0.0		#Glacier fraksjon (av area)					#GIS
+midGl   0		#Mean distance (from distance distribution, DD)for glacier	#GIS
+stdGl   0		#Standard deviation of distance (from distance distribution, DD)for glacier	#GIS
+maxGl   0		#Max distance (from distance distribution, DD) for glacier	#GIS
+g1	0.0		#Arealfraction of glaicer in first elevation Zone (NB arealfraction of the area of the elevation zone, not total area)	#GIS
+g2	0.0		#-
+g3	0.0		#-
+g4	0.0		#-
+g5	0.0		#-
+g6	0.0		#-
+g7	0.0		#-
+g8	0.0		#-
+g9	0.0		#-
+g10	0.0		#Arealfraction of glaicer in top elevation Zone(NB arealfraction of the area of the elevation zone, not total area)	#GIS
